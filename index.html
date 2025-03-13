@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,10 +24,11 @@
                 <button class="button-add" onclick="addFriend()">Add</button>
             </div>
            
-            <ul id="listfriends" class="name-list" aria-labelledby="listFriends" role="list"></ul>
+            <ul id="listFriends" class="name-list" aria-labelledby="listFriends" role="list"></ul>
             <ul id="result" class="result-list" aria-live="polite"></ul>
 
             <div class="button-container">
+                <button class="button-clear" onclick="clearFriendsList()">Clear List</button>
                 <button class="button-draw" onclick="drawFriend()" aria-label="Draw Secret Santa">
                     <img src="assets/play_circle_outline.png" alt="Draw">
                     Click to draw friend
